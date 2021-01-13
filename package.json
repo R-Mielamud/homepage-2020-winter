@@ -1,0 +1,33 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "My very own personal website. Basically this is just a résumé.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-Mielamud/homepage.git"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "resume",
+    "homepage",
+    "gh-pages",
+    "html",
+    "css",
+    "binary-studio-academy",
+    "bsa20"
+  ],
+  "author": "Roman Melamud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/R-Mielamud/homepage/issues"
+  },
+  "homepage": "https://github.com/R-Mielamud/homepage#readme",
+  "dependencies": {
+    "workbox-cli": "^6.0.2"
+  }
+}
