@@ -1,0 +1,15 @@
+@media screen and (max-width: 1250px) {
+    .columns {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .content {
+        width: 95%;
+    }
+}

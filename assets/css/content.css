@@ -1,0 +1,42 @@
+.text-center {
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+}
+
+.avatar {
+	height: 250px;
+	margin-left: 20px;
+}
+
+.contacts {
+	margin-left: 50px;
+}
+
+a {
+	color: #55f;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #11e;
+}
+
+.contacts a {
+	font-size: 18px;
+	display: block;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.contacts a img {
+	width: 25px;
+	margin-right: 10px;
+}
+
+.contacts h2 {
+	color: #434343;
+}
