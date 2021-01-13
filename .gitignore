@@ -1,0 +1,11 @@
+# MACOSX
+.DS_Store
+
+# NodeJS
+node_modules
+
+# Workbox
+sw.js.map
+workbox-*.js
+workbox-*.js.map
+!workbox-config.js
