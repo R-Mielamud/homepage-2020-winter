@@ -1,71 +1,70 @@
 .text-center {
-	text-align: center;
+  text-align: center;
 }
 
 .flex {
-	display: flex;
+  display: flex;
 }
 
 .avatar {
-	height: 250px;
-	margin-left: 20px;
+  height: 250px;
+  margin-left: 20px;
 }
 
 .contacts {
-	margin-left: 50px;
+  margin-left: 50px;
 }
 
 a {
-	color: #55f;
-	text-decoration: none;
+  color: #55f;
+  text-decoration: none;
 }
 
 a:hover {
-	color: #11e;
+  color: #11e;
 }
 
 .contacts a {
-	font-size: 18px;
-	display: block;
-	margin-bottom: 10px;
-	display: flex;
-	align-items: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .contacts a img {
-	width: 25px;
-	margin-right: 10px;
+  width: 25px;
+  margin-right: 10px;
 }
 
 .contacts h2 {
-	color: #434343;
+  color: #434343;
 }
 
 .intro {
-	font-style: italic;
-	font-size: 20px;
-	margin: 30px;
+  font-style: italic;
+  font-size: 20px;
+  margin: 30px;
 }
 
 .column {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .timeline .event {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .timeline .event .year {
-    color: #212176;
-	margin-right: 10px;
-	font-weight: bold;
-	font-size: 18px;
+  color: #212176;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .column.padded {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 ul {
-    list-style-position: inside;
+  list-style-position: inside;
 }
