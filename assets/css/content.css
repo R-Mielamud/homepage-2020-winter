@@ -46,3 +46,26 @@ a:hover {
 	font-size: 20px;
 	margin: 30px;
 }
+
+.column {
+    flex-grow: 1;
+}
+
+.timeline .event {
+    margin-bottom: 20px;
+}
+
+.timeline .event .year {
+    color: #212176;
+	margin-right: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.column.padded {
+    margin-right: 30px;
+}
+
+ul {
+    list-style-position: inside;
+}
