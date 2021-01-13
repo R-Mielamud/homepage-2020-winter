@@ -1,0 +1,46 @@
+.accordion {
+  position: relative;
+  margin-top: 20px;
+}
+
+.accordion .list {
+  transition-property: opacity, transform, max-height;
+  transition-duration: 0.5s;
+  transform: translateX(200px);
+  opacity: 0;
+  max-height: 0;
+}
+
+.accordion .open-ch {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: -2px;
+  left: -5px;
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.accordion .open {
+  transition: transform 0.2s;
+  opacity: 0.8;
+}
+
+.accordion .open-ch:hover ~ .open {
+  opacity: 1;
+}
+
+.accordion .header {
+  display: inline;
+}
+
+.accordion .open-ch:checked ~ .list {
+  opacity: 1;
+  transform: none;
+  max-height: 100vh;
+}
+
+.accordion .open-ch:checked ~ .open {
+  transform: rotateZ(90deg);
+}
