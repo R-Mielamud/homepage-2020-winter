@@ -40,3 +40,9 @@ a:hover {
 .contacts h2 {
 	color: #434343;
 }
+
+.intro {
+	font-style: italic;
+	font-size: 20px;
+	margin: 30px;
+}
