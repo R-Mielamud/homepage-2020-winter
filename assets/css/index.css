@@ -1,1 +1,4 @@
-/* Will be filled soon */
+@import "./general.css";
+@import "./content.css";
+@import "./accordion.css";
+@import "./media.css";
